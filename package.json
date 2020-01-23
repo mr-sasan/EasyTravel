@@ -1,0 +1,32 @@
+{
+  "name": "EasyTravel",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "persian": "^1.0.1",
+    "react": "16.6.3",
+    "react-native": "0.58.5",
+    "react-native-gesture-handler": "^1.0.16",
+    "react-native-search-box": "0.0.19",
+    "react-native-svg": "^9.2.4",
+    "react-native-tts": "^2.0.0",
+    "react-navigation": "^3.3.2",
+    "react-navigation-transitions": "^1.0.8"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "babel-preset-react-native": "^4.0.1",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.52.0",
+    "react-autocomplete-cli": "0.0.3",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
